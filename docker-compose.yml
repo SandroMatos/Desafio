@@ -23,6 +23,7 @@ services:
             - sail
         depends_on:
             - mysql
+        container_name: 'challenge'
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
