@@ -11,7 +11,9 @@ Mysql
 Comandos
 Primeiro passo é rodar o comando para buildar o projeto:
 docker-compose build
+
 Para subir a aplicação:
 docker-compose up -d
+
 Para dar stop na aplicação:
 docker-compose down
